@@ -6,6 +6,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
+project_name = "medical_chatbot"
 
 list_of_files = [
     "src/__init__.py",
@@ -14,6 +15,7 @@ list_of_files = [
     ".env",
     "setup.py",
     "app.py",
+    "store_index.py",
     "research/trials.ipynb",
    " test.py"
 ]
